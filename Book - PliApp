@@ -1,0 +1,32 @@
+from tkinter import* #gives access to all the names in tkinter module
+import tkinter.messagebox #used to display message boxes in your application
+
+class Library: #blueprint from which the library object has been created. when you have
+    #a set of data with a specific structure and you want to perform specific methods on it.
+    def __init_ (self,root): #def means define. __init__ calls an object created from the class everytime.
+        self.root = root #self. represents the instance of the class. It binds the attributes with the given arguments.
+        self.root.title("Library Database Management System") #creates a class level variable root and initialises it.
+        self.root.geometry("1350x750+0+0") #creates a class level variable root and initialises it.
+
+# Variable Dictionary
+
+        BkID = int() # Book ID - numeric format - Barcode number or DOI?
+        Bkt = StringVar() # Book Title - Text format - As Published
+        AutF = StringVar() # Authour first name - Text format 
+        AutL = StringVar() # Author Last name - Text Format
+        SerID = int() # Series ID - Numeric Format
+        Sert = StringVar() # Series Title - text format
+        Day = int() # Day number - for the release day
+        Mon = int() # Month number - for the release date
+        Year = int() # Year number - for the release date
+        Vol = int() # Number for the volume in series
+        Loc = StringVar() # The place of storage for location
+
+# Input method - 
+        # Class Tutor gave feed back that the idea is good but there are existing apps that do the same thing already, so I should think about
+        # Some innovative features to make it stand out or different to existing applications - Barcode scanner (?)
+        # Scrolling feature (carosel) - 
+        # After exploring existing apps with similar features, none shared the same purpose as my initial idea 
+                # none had the release date or the storage location component
+        
+
